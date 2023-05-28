@@ -23,8 +23,8 @@ public class MotorPhInventory {
         SearchStocks search = new SearchStocks();
         DeleteStocks deleted = new DeleteStocks();
         
-        //add.AddingStocks();
-        deleted.DeleteStocks();
+        add.AddingStocks();
+        //deleted.DeleteStocks();
         //search.SearchingStocks();
         //sort.SortingStocks();
         //display.printStack();//call function to print stack

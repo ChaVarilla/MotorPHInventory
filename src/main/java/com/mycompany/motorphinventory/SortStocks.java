@@ -66,6 +66,7 @@ public class SortStocks {
         for (int i = 0; i < sortList.size(); i++)
                 System.out.println(sortList.get(i));
         
+        
         Collections.sort(sortList, new Sortbybrand());
 
         // Display message on console for better readability
